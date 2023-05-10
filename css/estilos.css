@@ -1,0 +1,218 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: black;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Acme', sans-serif;
+    font-size: larger;
+  }
+
+  nav img {
+    height: 7rem;
+    width: 7rem;
+    margin: 0%;
+  }
+  nav h1 {
+    color:black;
+    font-family: 'Lobster', cursive;
+    background-color:  black;
+  }
+  
+  nav a {
+    color: #F3C8B8;
+    transition: 0.3s;
+    background-color: black;
+  }
+  nav a:hover {
+    color: #ED3942;
+    border-bottom: rgba(125, 40, 165, 100);
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1.9rem;
+    background-color: black;
+  }
+  
+  nav ul li {
+    font-weight: 700;
+  }
+
+  main {
+    background-color: #58585A;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+    
+  }
+
+  .hero img {
+    height: 20rem;
+    width: 30rem;
+    border-radius: 6px;
+    box-shadow: 1px 2px 15px 2px #ED3942;
+    background-color:  #B3B8C8;
+    margin: 15px  
+  }
+  
+  .bio {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 1px 2px 15px 2px #ED3942;
+    background-color:  #B3B8C8;
+  }
+  
+  .bio h1 {
+    margin-bottom: 0.5rem;
+    background-color: #B3B8C8;
+  }
+  
+  .bio h2 {
+    margin-bottom: 0.5rem;
+    background-color: #B3B8C8;
+  }
+  
+  .bio p {
+    line-height: 1.7rem;
+    padding: 0.3rem 0;
+    background-color:  #B3B8C8;
+  }
+
+  .sociales {
+    flex-direction: row;
+    text-align: center;
+    bottom: 50%;
+    margin: 2rem 6rem 0;
+    padding: 1.25rem;
+    position: relative;
+    background-color:#ED3942;
+  }
+  
+  .socicon {
+    width: 2rem;
+    height: 2rem;
+    margin: 20px;
+    background-color:#ED3942;
+  }
+
+  footer {
+    text-align: center;
+    text-decoration: solid;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: #ED3942;
+   }
+
+  a{
+    background-color:#ED3942;
+  }
+
+@media only screen and (max-width: 600px) {
+    nav{
+      font-size: medium;
+    }
+
+    footer{
+      padding: 0.8rem 0rem; 
+    }
+
+    nav img {
+      height: 5rem;
+      width: 5rem;
+      margin: 0%;
+    } 
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2.5rem;
+      max-width: 68.75rem;
+      margin: auto;
+    }
+  
+    .hero img {
+      height: 10rem;
+      width: 20rem;
+    }
+    
+    .bio h1 {
+      margin-bottom: 0.3rem;
+      
+    }
+    
+    .bio h2 {
+      margin-bottom: 0.3rem;
+    }
+    
+    .bio p {
+      line-height: 1rem;
+      padding: 0.3rem 0;
+      font-size: small;
+    }
+ }
+
+
+ 
+@media only screen and (min-width: 1200px)  {
+
+  .sociales {
+    flex-direction: row;
+    text-align: center;
+    bottom: 50%;
+    margin: 2rem 6rem 0;
+    padding: 1.25rem;
+    position: relative;
+    background-color:#ED3942;
+  }
+  
+  .socicon {
+    width: 2.7rem;
+    height: 2.7rem;
+    margin: 30px;
+    background-color:#ED3942;
+  }
+}
