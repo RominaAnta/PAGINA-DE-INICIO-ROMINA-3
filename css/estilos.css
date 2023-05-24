@@ -152,49 +152,77 @@ nav {
 
 @media only screen and (max-width: 600px) {
     nav{
-      font-size: medium;
+      font-size: small;
     }
 
     footer{
       padding: 0.8rem 0rem; 
     }
 
-    nav img {
-      height: 5rem;
-      width: 5rem;
-      margin: 0%;
-    } 
-
     .hero {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 2.5rem;
-      max-width: 68.75rem;
+      gap: 1rem;
+      max-width: 20rem;
       margin: auto;
+      
     }
   
     .hero img {
       height: 10rem;
-      width: 20rem;
+      width: 15rem;
+    }
+    
+    .bio {
+      width: 10rem;
+      padding: 0.625rem;
+      border-radius: 6px;
+      box-shadow: 1px 2px 15px 2px #ED3942;
+   
     }
     
     .bio h1 {
-      margin-bottom: 0.3rem;
-      
+      margin-bottom: 0.5rem;
+      font-size: medium;
+     
     }
     
     .bio h2 {
-      margin-bottom: 0.3rem;
+      margin-bottom: 0.5rem;
+      font-size: medium;
+  
     }
     
     .bio p {
-      line-height: 1rem;
+      line-height: 1.7rem;
       padding: 0.3rem 0;
-      font-size: small;
+      font-size: x-small; 
     }
+
+    nav img {
+      height: 3.5rem;
+      width: 3.5rem;
+      align-items: center;
+    } 
+
  }
 
+ @media only screen and (min-width: 768px) {
+
+  nav img {
+    height: 7rem;
+    width: 7rem;
+    align-items: center;
+  } 
+
+  .bio p {
+    line-height: 1.7rem;
+    padding: 0.3rem 0;
+    font-size: medium; 
+  }
+
+ }
 
  
 @media only screen and (min-width: 1200px)  {
@@ -215,4 +243,11 @@ nav {
     margin: 30px;
     background-color:#ED3942;
   }
+
+  nav img {
+    height: 7rem;
+    width: 7rem;
+    align-items: center;
+  } 
+
 }
